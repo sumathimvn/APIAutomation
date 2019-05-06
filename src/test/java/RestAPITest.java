@@ -15,8 +15,8 @@ public class RestAPITest {
     @Test
     public void CreateBoard()
     {
-        requestSpecification=given().queryParam("key", "0697ace29da135af1009cc535346c753")
-                .queryParam("token", "06583e99c5caa6cd72e2d29aa292f7aec3818716d13e83a93994f15ab149ff3a")
+        requestSpecification=given().queryParam("key", "")
+                .queryParam("token", "")
                 .queryParam("name", "Things to do").log().all()
                 .contentType(ContentType.JSON);
 
